@@ -1,0 +1,12 @@
+h1{
+    margin: 0;
+}
+
+
+// Theme
+@import "./theme/colors";
+@import "./theme/type";
+
+//Components
+@import "../components/header";
+
