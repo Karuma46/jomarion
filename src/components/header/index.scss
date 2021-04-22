@@ -1,5 +1,31 @@
-#header{
-    background-color: $yellow;
-    height: 85px;
-    width: 100%;
+#header {
+  background-color: $yellow;
+  height: 85px;
+  width: 100%;
+  #navButton {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  #topbarSocials {
+    display: none !important;
+  }
+}
+
+@media (max-width: 900px) {
+  #nav {
+    display: none !important;
+  }
+
+  #header {
+    min-width: 414px;
+    min-height: 50px;
+    .logo {
+      margin: 0 auto;
+    }
+    #navButton {
+      display: block;
+    }
+  }
 }

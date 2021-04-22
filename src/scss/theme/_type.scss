@@ -1,0 +1,11 @@
+* {
+  font-family: "Halant", serif;
+}
+
+a {
+  color: $black;
+  font-weight: 600;
+  &:hover {
+    color: inherit;
+  }
+}
