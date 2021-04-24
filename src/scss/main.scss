@@ -1,7 +1,6 @@
-h1{
-    margin: 0;
+h1 {
+  margin: 0;
 }
-
 
 // Theme
 @import "./theme/colors";
@@ -9,4 +8,4 @@ h1{
 
 //Components
 @import "../components/header";
-
+@import "../components/slider/";
