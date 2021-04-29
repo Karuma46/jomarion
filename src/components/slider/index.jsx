@@ -1,11 +1,15 @@
 import Drink from "assets/jpg/drink.jpg"
+import Icecream from "assets/jpg/icecream.jpg"
+import Burger from "assets/jpg/burger.jpg"
+import Meat from "assets/jpg/meat.jpg"
 
-function Slide(){
+
+function Slide({img}){
     return(
         <>
             <div className="slide">
                 <div className="image">
-                    <img src={Drink} alt=""/>
+                    <img src={img} alt=""/>
                 </div>
                 <div className="slideInfo py-2 px-3">
                     <div className="contentTag">
@@ -32,10 +36,10 @@ function Slider(){
         <>
             <div id="slider">
                 <div id="slideWrap">
-                    <Slide/>
-                    <Slide/>
-                    <Slide/>
-                    <Slide/>
+                    <Slide img={Drink}/>
+                    <Slide img={Meat}/>
+                    <Slide img={Burger}/>
+                    <Slide img={Icecream}/>
                 </div>
             </div>
         </>

@@ -14,8 +14,6 @@ function MobileNav(){
                     <span className="my-2"><a href="">Video</a></span>
                     <span className="my-2"><a href="">Gallery</a></span>
                     <span className="my-2"><a href="">Cookouts</a></span>
-                    <span className="my-2"><a href="">Cookouts</a></span>
-                    <span className="my-2"><a href="">Cookouts</a></span> 
                 </div>
 
                 <div id="navFooter" className="border-box">
@@ -58,8 +56,6 @@ function Header(){
                 <span className="mx-4"><a href="">Video</a></span>
                 <span className="mx-4"><a href="">Gallery</a></span>
                 <span className="mx-4"><a href="">Cookouts</a></span>
-                <span className="mx-4"><a href="">Cookouts</a></span>
-                <span className="mx-4"><a href="">Cookouts</a></span>
             </nav>
 
             <div id="topbarSocials" className="d-flex justify-content-between">
@@ -69,7 +65,7 @@ function Header(){
                 <span className="d-inline-block mx-2"><a href="#" ><i className="fab fa-md fa-facebook"></i> </a></span>
             </div>
 
-            {/* <MobileNav/> */}
+            <MobileNav/>
         </div>
     )
 }

@@ -1,0 +1,19 @@
+#gallery {
+  .titleSection {
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  .contentTag {
+    width: fit-content;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+  }
+  .photoWrap {
+    width: 100%;
+    overflow: hidden;
+    .pic {
+      width: 25%;
+    }
+  }
+}

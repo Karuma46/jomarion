@@ -1,0 +1,19 @@
+button {
+  height: 48px;
+  min-width: 150px;
+  padding: 0px 20px;
+  width: max-content;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.yellowBtn {
+  background-color: $yellow;
+}
+
+.blackBtn {
+  background-color: black;
+  color: $yellow;
+}
