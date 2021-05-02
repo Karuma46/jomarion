@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 import Logo from "assets/svg/logo.svg"
 import LogoAlt from "assets/svg/logo-white.svg"
 
@@ -10,10 +12,10 @@ function MobileNav(){
 
             <div id="mobileNav" className="p-3 border-box">
                 <div id="mobileMenu" className="text-white d-flex flex-column">
-                    <span className="my-2"><a href="">Recipes</a></span>
-                    <span className="my-2"><a href="">Video</a></span>
-                    <span className="my-2"><a href="">Gallery</a></span>
-                    <span className="my-2"><a href="">Cookouts</a></span>
+                    <span className="my-2"><Link to="recipes">Recipes</Link></span>
+                    <span className="my-2"><Link to="">Video</Link></span>
+                    <span className="my-2"><Link to="">Gallery</Link></span>
+                    <span className="my-2"><Link to="">Cookouts</Link></span>
                 </div>
 
                 <div id="navFooter" className="border-box">
@@ -47,15 +49,17 @@ function Header(){
         <div className="header d-flex align-items-center justify-content-around px-5" id="header">
             <div className="logo">
                 <div id="logoWrapper">
-                    <img src= {Logo} alt="logo" />
+                    <Link to="/">
+                        <img src= {Logo} alt="logo" />
+                    </Link>
                 </div>
             </div>
 
             <nav className="nav d-flex justify-content-between" id="nav">
-                <span className="mx-4"><a href="">Recipes</a></span>
-                <span className="mx-4"><a href="">Video</a></span>
-                <span className="mx-4"><a href="">Gallery</a></span>
-                <span className="mx-4"><a href="">Cookouts</a></span>
+                <span className="mx-4"><Link to="recipes">Recipes</Link></span>
+                <span className="mx-4"><a href="/#videos">Video</a></span>
+                <span className="mx-4"><Link to="">Gallery</Link></span>
+                <span className="mx-4"><Link to="">Cookouts</Link></span>
             </nav>
 
             <div id="topbarSocials" className="d-flex justify-content-between">

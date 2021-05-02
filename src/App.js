@@ -1,19 +1,18 @@
-import Header from "components/header"
-import Slider from "components/slider"
-import Section from "components/sections"
-import Gallery from "components/gallery"
-import Cookout from "components/cookout"
-import Footer from "components/footer"
+import React from 'react'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
+import Home from "pages/homepage"
+import Recipes from "pages/recipes"
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Slider></Slider>
-      <Section></Section>
-      <Cookout></Cookout>
-      {/* <Gallery></Gallery> */}
-      <Footer></Footer>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/recipes" component={Recipes} />
+        </Switch>
+      </Router>
     </div>
   );
 }

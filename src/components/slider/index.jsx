@@ -3,6 +3,7 @@ import Icecream from "assets/jpg/icecream.jpg"
 import Burger from "assets/jpg/burger.jpg"
 import Meat from "assets/jpg/meat.jpg"
 
+import {Link} from "react-router-dom"
 
 function Slide({img}){
     return(
@@ -15,7 +16,7 @@ function Slide({img}){
                     <div className="contentTag">
                         Recipe
                     </div>
-                    <a href="">
+                    <Link to="recipes">
                         <h2>
                             Lorem Ipsum Dolor Si Amet
                         </h2>
@@ -24,7 +25,7 @@ function Slide({img}){
                             The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. 
                             Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz
                         </p>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </>
