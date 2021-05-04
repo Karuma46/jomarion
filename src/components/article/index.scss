@@ -4,7 +4,8 @@
   width: 100%;
   position: relative;
   #title {
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
     color: white;
     position: absolute;
     z-index: 2;
@@ -34,4 +35,15 @@
 #articleText {
   width: 600px;
   margin: 20px auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  #articleText {
+    width: 100%;
+    // margin: 20px auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
 }

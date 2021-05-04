@@ -7,6 +7,7 @@ function Article(){
                 <div id="articleHeader">
                     <div id="title">
                         <h1>Lorem Ipsum Dolor Si Amet</h1>
+                        <br/>
                         <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz</p>
                     </div>
                     <div id="bgImg">
