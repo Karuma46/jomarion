@@ -13,9 +13,9 @@
     position: absolute;
     top: 85px;
     left: 0px;
-    display: none;
     width: 100%;
     height: 100vh;
+    z-index: 999;
     #mobileMenu {
       span {
         display: block;
@@ -29,7 +29,9 @@
       text-align: center;
       position: absolute;
       bottom: 50px;
-      width: 100%;
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 }
@@ -39,11 +41,6 @@
 @media (max-width: 1200px) {
   #topbarSocials {
     display: none !important;
-  }
-  #header {
-    #mobileNav {
-      display: block;
-    }
   }
 }
 
