@@ -77,11 +77,11 @@ function Header(){
     return(
         <div className="header d-flex align-items-center justify-content-around px-5" id="header">
             <div className="logo">
-                <div id="logoWrapper">
-                    <Link to="/">
-                        <img src= {Logo} alt="logo" />
-                    </Link>
-                </div>
+                <Link to="/">
+                    <div id="logoWrapper">
+                        <img src= {Logo} alt="logo" width="160px" height="77px"  />
+                    </div>
+                </Link>
             </div>
 
             <nav className="nav d-flex justify-content-between" id="nav">
