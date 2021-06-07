@@ -1,0 +1,92 @@
+import Burger from 'assets/jpg/burger.jpg'
+import Logo from 'assets/svg/logo.svg'
+
+const Header = () => {
+    return(
+        <>
+            <div className="row m-0">
+                <div className="col-12 p-0">
+                    <div className="hero">
+                        <div className="row justify-content-between">
+                            <div className="col-6">
+                                <div id="logoContainer">
+                                    <div id="jomSocials">
+                                        <span>
+                                            <a href="">
+                                                <i className="fab fa-youtube"></i>
+                                            </a>
+                                        </span>
+
+                                        <span>
+                                            <a href="">
+                                                <i className="fab fa-instagram"></i>
+                                            </a>
+                                        </span>
+
+                                        <span>
+                                            <a href="">
+                                                <i className="fab fa-twitter"></i>
+                                            </a>
+                                        </span>
+
+                                        <span>
+                                            <a href="">
+                                                <i className="fab fa-facebook"></i>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div id="jmLogo">
+                                        <div>
+                                            <h4 className="text-center">
+                                                Welcome
+                                            </h4>
+                                        </div>
+                                        <div id="logoWrap">
+                                            <img src={Logo} alt="" />
+                                        </div>
+                                        <div id="jmNav">
+                                            <nav>
+                                                <span>
+                                                    <a href="#">Menu</a>
+                                                </span>
+
+                                                <span>
+                                                    <a href="#">Videos</a>
+                                                </span>
+
+                                                <span>
+                                                    <a href="#">Gallery</a>
+                                                </span>
+
+                                                <span>
+                                                    <a href="#">Cookouts</a>
+                                                </span>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-6">
+                                <div id="jomCarousel">
+                                    <div id="slider">
+                                        <img src={Burger} alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="scrollArrow" className="text-center">
+                                <span>
+                                    <a href="">
+                                        <i className="fas fa-arrow-down"></i>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Header
