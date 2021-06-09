@@ -1,4 +1,5 @@
 import Header from "components/hero"
+import Menu from "components/menu"
 // import Slider from "components/slider"
 // import Section from "components/sections"
 // import Gallery from "components/gallery"
@@ -9,6 +10,7 @@ function Home() {
   return (
     <div className="App">
       <Header></Header>
+      <Menu></Menu>
       {/* <Slider></Slider>
       <Section></Section>
       <Cookout></Cookout> */}
