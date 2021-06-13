@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
-import Home from "pages/homepage"
+import Home from "pages/homepage/homepage"
 import Recipes from "pages/recipes"
 
 function App() {

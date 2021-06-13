@@ -1,7 +1,3 @@
-h1 {
-  margin: 0;
-}
-
 // Theme
 @import "./theme/colors";
 @import "./theme/type";
@@ -15,4 +11,22 @@ h1 {
 @import "../components/footer/";
 @import "../components/article/";
 @import "../components/hero";
-@import "../components/menu/";
+@import "./components/menu/";
+@import "./components/videos/";
+@import "./components/gallery/";
+
+body {
+  &::before {
+    content: "";
+    background-image: url("../assets/jpg/pattern3.png");
+    background-repeat: unset;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100vh;
+
+    top: 0px;
+    opacity: 0.6;
+    z-index: -1;
+    // background-color: blueviolet;
+  }
+}

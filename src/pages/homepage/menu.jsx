@@ -10,13 +10,10 @@ export const MenuComponent = () => {
                     </div>
                     <div className="mt-3">
                         <h3>Grilled Smokies</h3>
-                        <p>Kshs. 500</p>
+                        <h4>Kshs. 500</h4>
                     </div>
                     <button className="yellowBtn">
-                        Add to Basket 
-                        <span>
-                            <i className="fas fa-shopping-basket"></i>
-                        </span>
+                        View 
                     </button>
                 </div>
             </div>
@@ -27,10 +24,10 @@ export const MenuComponent = () => {
 const Menu = () => {
     return(
         <>
-            <section>
+            <section className="py-5">
                 <div className="row m-0 py-5">
                     <div className="col-12 m-0 text-center">
-                        <h2>Menu</h2>
+                        <h2>Menu</h2> 
                     </div>
                 </div>
                 <div className="row m-0">
