@@ -3,7 +3,7 @@ import pic from "assets/jpg/burger.jpg"
 export const MenuComponent = () => {
     return (
         <>
-            <div className="col-3">          
+            <div className="col-lg-3 col-md-6 col-11">          
                 <div className="jomMenu">
                     <div className="menuImg">
                         <img src={pic} alt="" />
@@ -31,7 +31,7 @@ const Menu = () => {
                     </div>
                 </div>
                 <div className="row m-0">
-                    <div className="col-lg-10 mx-auto d-flex">
+                    <div className="col-lg-10 mx-auto d-flex flex-wrap justify-content-center">
                         <MenuComponent/>
                         <MenuComponent/>
                         <MenuComponent/>

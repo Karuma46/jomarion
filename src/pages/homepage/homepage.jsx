@@ -13,8 +13,6 @@ function Home() {
       <Header/>
       <Menu />
       <Videos/>
-      {/* <Slider></Slider> */}
-      {/* <Section></Section> */}
       <Gallery />
       <Cookout />
       <Footer/>

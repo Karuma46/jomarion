@@ -5,10 +5,10 @@ const Header = () => {
     return(
         <>
             <div className="row m-0">
-                <div className="col-12 p-0">
+                <div className="col-12 p-0 heroWrap">
                     <div className="hero">
-                        <div className="row justify-content-between">
-                            <div className="col-6">
+                        <div className="row justify-content-between flex-wrap-reverse">
+                            <div className="col-lg-6 col-md-12">
                                 <div id="logoContainer">
                                     <div id="jomSocials">
                                         <span>
@@ -38,7 +38,7 @@ const Header = () => {
                                     <div id="jmLogo">
                                         <div>
                                             <h4 className="text-center">
-                                                Welcome
+                                                Welcome to
                                             </h4>
                                         </div>
                                         <div id="logoWrap">
@@ -66,7 +66,7 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6">
+                            <div className="col-lg-6 col-md-12">
                                 <div id="jomCarousel">
                                     <div id="slider">
                                         <img src={Burger} alt="" />
@@ -81,7 +81,6 @@ const Header = () => {
                                 </span>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>

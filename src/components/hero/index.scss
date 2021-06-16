@@ -1,10 +1,17 @@
-.hero {
+.heroWrap {
   width: 100%;
-  height: 90vh;
+  overflow: hidden;
+}
+
+.hero {
+  width: 105%;
+  height: 80vh;
   background: $yellow;
-  border-radius: 0px 0px 50% 50%;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
   overflow: hidden;
   position: relative;
+  left: -2.5%;
   &::before {
     content: "";
     background-image: url("../../assets/jpg/pattern3.png");
@@ -22,10 +29,14 @@
   border-radius: 50% 0px 0px 50%;
   overflow: hidden;
   position: relative;
-  padding-top: 100%;
+  height: 100%;
   #slider {
     position: absolute;
     top: 0px;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
   }
 }
 
@@ -34,6 +45,7 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
+  width: 100%;
   position: relative;
 }
 
@@ -50,7 +62,7 @@
 }
 
 #jmNav {
-  width: 500px;
+  // width: 500px;
   margin: 0px auto;
   nav {
     display: flex;
@@ -59,27 +71,29 @@
 }
 
 #logoWrap {
-  width: 500px;
+  width: 100%;
   position: relative;
   text-align: center;
   margin: 0px auto;
   padding: 0px 40px;
   &::before {
     content: "";
-    width: 100%;
+    width: 50%;
     height: 1px;
-    top: 10px;
-    left: 0px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
     border-bottom: 1px solid #000;
     border-style: double;
   }
   &::after {
     content: "";
-    width: 100%;
+    width: 50%;
     height: 1px;
-    bottom: 40px;
-    left: 0px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
     border-top: 1px solid #000;
     border-style: double;
@@ -95,4 +109,33 @@
   color: #000;
   z-index: 999;
   width: 100%;
+}
+
+@media only screen and (max-width: 990px) {
+  .hero {
+    height: 100vh;
+    border-radius: 0px;
+  }
+  #logoContainer {
+    height: 40vh;
+    width: 90%;
+    margin: 0px auto;
+  }
+  #jomCarousel {
+    height: 60vh;
+    border-radius: 0px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    #slider {
+      img {
+        height: 100%;
+      }
+    }
+  }
+  #jomSocials {
+    display: none;
+  }
+  #jmNav {
+    display: none;
+  }
 }
