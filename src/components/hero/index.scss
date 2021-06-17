@@ -109,6 +109,10 @@
   color: #000;
   z-index: 999;
   width: 100%;
+  text-align: center;
+  span {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 990px) {

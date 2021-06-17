@@ -3,10 +3,10 @@
   height: 85px;
   width: 100%;
   box-sizing: border-box;
-  position: relative;
-  #logoWrapper {
-  }
-
+  position: fixed;
+  top: 0px;
+  z-index: 99999;
+  transition: 0.3s ease-in-out all;
   #navButton {
     display: none;
   }

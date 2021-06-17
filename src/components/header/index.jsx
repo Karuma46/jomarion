@@ -85,8 +85,8 @@ function Header(){
             </div>
 
             <nav className="nav d-flex justify-content-between" id="nav">
-                <span className="mx-4"><Link to="recipes">Recipes</Link></span>
-                <span className="mx-4"><a href="/#videos">Video</a></span>
+                <span className="mx-4"><Link to="recipes">Menu</Link></span>
+                <span className="mx-4"><a href="/#videos">Videos</a></span>
                 <span className="mx-4"><Link to="">Gallery</Link></span>
                 <span className="mx-4"><Link to="">Cookouts</Link></span>
             </nav>

@@ -1,12 +1,12 @@
 import Burger from 'assets/jpg/burger.jpg'
 import Logo from 'assets/svg/logo.svg'
 
-const Header = () => {
+const Hero = () => {
     return(
         <>
             <div className="row m-0">
                 <div className="col-12 p-0 heroWrap">
-                    <div className="hero">
+                    <div className="hero" id="hero">
                         <div className="row justify-content-between flex-wrap-reverse">
                             <div className="col-lg-6 col-md-12">
                                 <div id="logoContainer">
@@ -73,7 +73,7 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div id="scrollArrow" className="text-center">
+                            <div id="scrollArrow">
                                 <span>
                                     <a href="">
                                         <i className="fas fa-arrow-down"></i>
@@ -88,4 +88,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Hero
