@@ -18,7 +18,7 @@ const Videos = () => {
                     </div>
                     <div className="col-md-5 col-sm-9 d-flex">
                         <div className="align-self-center">
-                            <h2>Let's Story Cook with Chef JO</h2>
+                            <h3>Let's Story Cook with Chef JO</h3>
                             <p>
                                 The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz
                             </p>

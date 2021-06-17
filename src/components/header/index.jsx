@@ -35,7 +35,7 @@ function MobileNav(){
                     <>
                         <div id="mobileNav" className="p-3 border-box">
                             <div id="mobileMenu" className="text-white d-flex flex-column">
-                                <span className="my-2"><Link to="recipes">Recipes</Link></span>
+                                <span className="my-2"><Link to="recipes">Menu</Link></span>
                                 <span className="my-2"><Link to="">Video</Link></span>
                                 <span className="my-2"><Link to="">Gallery</Link></span>
                                 <span className="my-2"><Link to="">Cookouts</Link></span>

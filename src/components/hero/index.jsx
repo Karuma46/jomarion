@@ -73,13 +73,13 @@ const Hero = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div id="scrollArrow">
+                            {/* <div id="scrollArrow">
                                 <span>
                                     <a href="">
                                         <i className="fas fa-arrow-down"></i>
                                     </a>
                                 </span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
