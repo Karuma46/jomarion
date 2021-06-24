@@ -1,4 +1,4 @@
-import React,{useEffect} from "react"
+import React, { useEffect } from "react"
 import Header from "components/header"
 import Hero from "components/hero"
 import Menu from "./menu"
@@ -13,23 +13,23 @@ function Home() {
     var header = document.getElementById('header');
     header.style.top = '-85px';
     window.onscroll = () => {
-      if(window.scrollY > 600){
+      if (window.scrollY > 600) {
         header.style.top = '0px';
       } else {
         header.style.top = '-85px';
       }
     }
-  },[])
+  }, [])
 
   return (
     <div className="App">
       <Header />
-      <Hero/>
+      <Hero />
       <Menu />
-      <Videos/>
+      <Videos />
       <Gallery />
       <Cookout />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

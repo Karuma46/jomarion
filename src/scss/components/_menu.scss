@@ -4,13 +4,73 @@
   .menuImg {
     // height: 300px;
     width: 70%;
-    border-radius: 50%;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 5px;
     background-color: $yellow;
     overflow: hidden;
     margin: 20px auto;
     img {
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+}
+
+.menuDetails{
+  display: flex;
+}
+
+.menuPics{
+  width: 50%;
+  .picSlider{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: $yellow;
+    box-shadow: 0px 0px 29px rgba(0,0,0,0.3);
+    img{
+      width: 100%;
       border-radius: 50%;
+    }
+  }
+}
+
+.menuInfo{
+  width: 40%;
+  ul{
+    padding-left: 20px;
+  }
+}
+
+.total{
+  p{
+    font-size: 24px;
+  }
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.menuQty{
+  span{
+    display: inline-block;
+    margin: 0px 5px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .menuDetails{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menuPics, .menuInfo{
+    width: 80%;
+    margin: 0px auto;
+    .picSlider{
       width: 100%;
     }
   }

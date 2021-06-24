@@ -1,7 +1,7 @@
 import Video from "assets/jpg/video.jpg"
 
 const Videos = () => {
-    return(
+    return (
         <>
             <section className="py-5 mx-0">
                 <div className="row m-0 py-2">
@@ -13,7 +13,13 @@ const Videos = () => {
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-5 col-sm-9">
                         <div className="videoImg">
-                            <img src={Video} alt="" />
+                            <iframe
+                                src="https://www.youtube.com/embed/A3KyDZywaXA"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
                     <div className="col-md-5 col-sm-9 d-flex">
